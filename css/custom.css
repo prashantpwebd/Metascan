@@ -91,9 +91,22 @@ nav .bg-blue a {
 }
 nav.navbar {
   background-color: #ffffff !important;
+  padding: 0;
+}
+@media (min-width: 991px) {
+  nav.navbar {
+    padding: 0px;
+  }
 }
 nav .logo {
-  width: 18%;
+  width: 50%;
+  margin-left: 10px;
+}
+@media (min-width: 991px) {
+  nav .logo {
+    width: 18%;
+    margin-left: 0px;
+  }
 }
 nav .navbar-collapse {
   justify-content: flex-end;

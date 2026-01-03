@@ -101,9 +101,18 @@ nav {
     }
     &.navbar {
         background-color: $white-color !important;
+        padding: 0;
+        @media (min-width: 991px) {
+            padding: 0px;
+        }
     }
     .logo {
-        width: 18%;
+        width: 50%;
+        margin-left: 10px;
+        @media (min-width: 991px) {
+            width: 18%;
+            margin-left: 0px;
+        }
     }
     .navbar-collapse {
         justify-content: flex-end;
@@ -122,6 +131,10 @@ nav {
             }
         }
     }
+}
+
+.innerPage {
+    
 }
 
 .container {
